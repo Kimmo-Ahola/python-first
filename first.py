@@ -1,83 +1,85 @@
-# # x = "Kimmo"
+x = "Kimmo"
 
-# # print(x)
+print(x)
 
-# # yTest_test123 = "Kimmo"
-# # age = 34
+yTest_test123 = "Kimmo"
+age = 34
 
-# # print("Namnet är: ", yTest_test123, "Åldern är: ", age)
-# # x = 12
+print("Namnet är: ", yTest_test123, "Åldern är: ", age)
+x = 12
 
-# # name = "Kimmo"
-# # age = 34
+name = "Kimmo"
+age = 34
 
-# # z = name + "Ahola"
+z = name + "Ahola"
 
-# # x_2 = 1 # integer
-# # x_3 = 1.0 # float
-# # boolean = True # boolean, False fungerar också
+x_2 = 1  # integer
+x_3 = 1.0  # float
+boolean = True  # boolean, False fungerar också
 
-# # result = x_2 + x_3
-# # print(result + boolean)
-# # # kommentar
-# # null = None
-
-# # print(null)
-
-# """
+result = x_2 + x_3
+print(result + boolean)
 # kommentar
-# på
-# flera
-# rader
-# """
+null = None
 
-# name = "kimmo"
-# age = 34
+print(null)
 
-# f_string = f"{name} {(age+1)//2}"
-# print(3**6)
+"""
+kommentar
+på
+flera
+rader
+"""
 
-# class Person(): # tabell? ORM -> omvandlar klasser till tabeller
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
+name = "kimmo"
+age = 34
 
-#     def print(self):
-#         print(f"Namnet är: {self.name}. Åldern är: {self.age}")
+f_string = f"{name} {(age+1)//2}"
+print(3**6)
 
-# kimmo = Person("Kimmo", 34)
 
-# # kimmo.print()
+class Person:  # tabell? ORM -> omvandlar klasser till tabeller
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-# my_string = "kimmo ahola"
-# my_string = my_string.title()
+    def print(self):
+        print(f"Namnet är: {self.name}. Åldern är: {self.age}")
 
-# # print(my_string)
 
-# # Jag vill ha små bokstäver igen
-# my_string = my_string.lower()
+kimmo = Person("Kimmo", 34)
 
-# my_number = 1
+kimmo.print()
 
-# # Expressions
+my_string = "kimmo ahola"
+my_string = my_string.title()
 
-# expression = (5+4) > 3
-# # print(expression)
+print(my_string)
 
-# # Jämförelseoperatorer
+# Jag vill ha små bokstäver igen
+my_string = my_string.lower()
 
-# # Equals to skrivs ==
+my_number = 1
 
-# # print("apple" > "Apple")
+# Expressions
 
-# # truthy = "typ sant"
-# if 5: # True = 1, False = 0
-#     print("5 is larger than 4?")
-#     print("")
-#     if 5 > 4:
-#         print("")
-# elif 5 > 4:
-#     print("5 is larger than 4!!!!!")
+expression = (5 + 4) > 3
+print(expression)
+
+# Jämförelseoperatorer
+
+# Equals to skrivs ==
+
+print("apple" > "Apple")
+
+truthy = "typ sant"
+if 5:  # True = 1, False = 0
+    print("5 is larger than 4?")
+    print("")
+    if 5 > 4:
+        print("")
+elif 5 > 4:
+    print("5 is larger than 4!!!!!")
 
 x = "kimmo"
 
